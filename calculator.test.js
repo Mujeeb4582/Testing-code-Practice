@@ -8,7 +8,7 @@ describe('my calculation', () => {
 
   test('6 - 4 = 2', () => {
     const subtractionResult = calculator.subtract(6, 4);
-    expect(subtractionResult).toBe(2);
+    expect(subtractionResult).toEqual(2);
   });
 
   test('6 - 3 = 2', () => {
@@ -18,7 +18,7 @@ describe('my calculation', () => {
 
   test('6 x 3 = 18', () => {
     const multiplyResult = calculator.multiply(6, 3);
-    expect(multiplyResult).toBe(18);
+    expect(multiplyResult).toEqual(18);
   });
 
 });
