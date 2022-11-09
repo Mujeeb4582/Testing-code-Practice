@@ -1,0 +1,23 @@
+{
+  "name": "testing-code-practice",
+  "version": "1.0.0",
+  "description": "This Repo about to understand how to test your code using test files.",
+  "main": "string.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mujeeb4582/Testing-code-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mujeeb4582/Testing-code-Practice/issues"
+  },
+  "homepage": "https://github.com/Mujeeb4582/Testing-code-Practice#readme",
+  "dependencies": {
+    "jest": "^29.3.0"
+  }
+}
