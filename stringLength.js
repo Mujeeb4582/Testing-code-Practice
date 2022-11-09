@@ -17,4 +17,3 @@ function reverseString(str) {
 
 
 module.exports = {stringLength, reverseString};
-// module.exports = reverseString;
