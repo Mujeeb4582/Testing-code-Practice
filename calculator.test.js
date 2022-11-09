@@ -11,4 +11,14 @@ describe('my calculation', () => {
     expect(subtractionResult).toBe(2);
   });
 
-})
+  test('6 - 3 = 2', () => {
+    const divideResult = calculator.divide(6, 3);
+    expect(divideResult).toBe(2);
+  });
+
+  test('6 x 3 = 18', () => {
+    const multiplyResult = calculator.multiply(6, 3);
+    expect(multiplyResult).toBe(18);
+  });
+
+});

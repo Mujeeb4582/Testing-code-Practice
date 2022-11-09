@@ -7,5 +7,5 @@ if(typeof value === 'string') {
     expect(capitalize(value)).toBe('Hello world');
   });
 } else {
-  throw ('Input must be string' );
+  throw ('Input must be string');
 }
