@@ -1,5 +1,11 @@
 const capitalize = require('./CapitalizeString');
 
-test('String first character must be capitalize', () => {
-  expect(capitalize('hello world')).toBe('Hello world');
-});
+const value = 'hello world';
+
+if(typeof value === 'string') {
+  test('String first character must be capitalize', () => {
+    expect(capitalize(value)).toBe('Hello world');
+  });
+} else {
+  throw ('Input must be string' );
+}
